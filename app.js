@@ -1,1 +1,2 @@
-console.log("ここにコードを追加します！！！");
+var userName = 'Max';
+console.log(userName);
