@@ -1,1 +1,1 @@
-console.log('Sending analytics data...')
+console.log('Sending analytics 2 data...')
