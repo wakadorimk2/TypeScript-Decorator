@@ -1,1 +1,3 @@
-console.log("ここにコードを追加します！！！")
+const userName = 'Max';
+
+console.log(userName);
