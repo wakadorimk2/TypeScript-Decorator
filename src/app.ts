@@ -23,3 +23,8 @@ const coppiedPerson = { ...person };
 
 console.log(person);
 console.log(coppiedPerson);
+
+const add = () => {};
+
+const addedNumbers = add(5, 10, 2, 3.7);
+console.log(addedNumbers);
