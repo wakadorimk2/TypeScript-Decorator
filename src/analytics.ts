@@ -1,1 +1,5 @@
-console.log('Sending analytics 2 data...')
+function sendAnalytics(data) {
+    console.log(data)
+}
+
+sendAnalytics('The data')
