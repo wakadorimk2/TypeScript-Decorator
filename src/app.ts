@@ -8,5 +8,3 @@ function add(a: number, b: number) {
   result = a + b;
   return result;
 }
-
-console.log(result);
