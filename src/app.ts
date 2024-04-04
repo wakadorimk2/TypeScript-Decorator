@@ -1,8 +1,3 @@
-const userName = 'Max';
-let age = 30;
-
-age = 29;
-
 const button = document.querySelector('button')
 
 if (button) {
@@ -33,3 +28,5 @@ console.log(addedNumbers);
 const [hobby1, hobby2] = hobbies;
 
 console.log(hobbies, hobby1, hobby2);
+
+const { name, age } = person;
