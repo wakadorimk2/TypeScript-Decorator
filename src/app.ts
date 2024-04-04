@@ -5,7 +5,5 @@ function clickHandler() {
 }
 
 if (button) {
-    button.addEventListener('click', () => {
-        console.log('Button clicked!');
-    });
+    button.addEventListener('click', clickHandler);
 }
