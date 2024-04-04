@@ -21,9 +21,6 @@ const person = {
 
 const coppiedPerson = { ...person };
 
-console.log(person);
-console.log(coppiedPerson);
-
 const add = (...numbers: number[]) => {
   return numbers.reduce((curResult, curValue) => {
     return curResult + curValue;
