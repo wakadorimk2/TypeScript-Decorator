@@ -31,6 +31,10 @@ class AccountingDepartment extends Department {
   constructor(id: string, private reports: string[]) {
     super(id, 'Accounting');
   }
+
+  addReport(text: string) {
+    this.reports.push(text);
+  }
 }
 
 const it = new ITDepartment('D1', ['Max']);
