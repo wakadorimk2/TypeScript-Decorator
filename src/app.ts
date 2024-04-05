@@ -11,6 +11,11 @@ class Department {
   addEmployee(employee: string) {
     this.employees.push(employee);
   }
+
+  printEmployeeInformation() {
+    console.log(this.employees.length);
+    console.log(this.employees);
+  }
 }
 
 class ITDepartment extends Department {
@@ -22,4 +27,5 @@ class ITDepartment extends Department {
   }
 }
 
-const accounting = new ITDepartment('D1', ['Max']);
+const it = new ITDepartment('D1', ['Max']);
+console.log(it)
