@@ -30,7 +30,7 @@ class ITDepartment extends Department {
     this.admins = admins;
   }
 
-  describe(this: Department): void {
+  describe(): void {
     console.log('IT部門 - ID: ' + this.id);
   }
 }
