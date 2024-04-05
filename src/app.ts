@@ -95,7 +95,7 @@ const employee1 = Department.createEmployee('Max');
 const it = new ITDepartment('D1', ['Max']);
 it.describe();
 
-const accounting = new AccountingDepartment('D2', [])
+const accounting = AccountingDepartment.getInstance();
 accounting.mostRecentReport = "通期会計レポート";
 accounting.addReport('Something...')
 
