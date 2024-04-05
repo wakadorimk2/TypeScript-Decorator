@@ -30,6 +30,10 @@ class ITDepartment extends Department {
 class AccountingDepartment extends Department {
   private lastReport: string;
 
+  get mostRecentReport() {
+    return this.lastReport;
+  }
+
   constructor(id: string, private reports: string[]) {
     super(id, 'Accounting');
     this.lastReport = reports[0];
