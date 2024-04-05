@@ -57,6 +57,9 @@ class AccountingDepartment extends Department {
     this.lastReport = reports[0];
   }
 
+  static getInstance() {
+  }
+
   describe(): void {
     console.log('会計部門 - ID: ' + this.id);
   }
