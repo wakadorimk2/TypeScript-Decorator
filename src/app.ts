@@ -76,3 +76,5 @@ accounting.addReport('Something...')
 accounting.addEmployee('Max');
 accounting.addEmployee('Manu');
 console.log(accounting);
+
+console.log(Math.PI);
