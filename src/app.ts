@@ -29,6 +29,10 @@ class ITDepartment extends Department {
     super(id, 'IT');
     this.admins = admins;
   }
+
+  describe(this: Department): void {
+    console.log('IT部門 - ID: ' + this.id);
+  }
 }
 
 class AccountingDepartment extends Department {
