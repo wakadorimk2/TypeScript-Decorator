@@ -70,8 +70,8 @@ const it = new ITDepartment('D1', ['Max']);
 console.log(it)
 
 const accounting = new AccountingDepartment('D2', [])
+accounting.mostRecentReport = "通期会計レポート";
 accounting.addReport('Something...')
-console.log(accounting)
 
 accounting.addEmployee('Max');
 accounting.addEmployee('Manu');
