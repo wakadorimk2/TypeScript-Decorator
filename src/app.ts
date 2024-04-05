@@ -31,7 +31,9 @@ class AccountingDepartment extends Department {
   private lastReport: string;
 
   get mostRecentReport() {
-    return this.lastReport;
+    if (this.lastReport) {
+      return this.lastReport;
+    }
   }
 
   constructor(id: string, private reports: string[]) {
