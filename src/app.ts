@@ -54,3 +54,7 @@ console.log(it)
 const accounting = new AccountingDepartment('D2', [])
 accounting.addReport('Something...')
 console.log(accounting)
+
+accounting.addEmployee('Max');
+accounting.addEmployee('Manu');
+console.log(accounting);
