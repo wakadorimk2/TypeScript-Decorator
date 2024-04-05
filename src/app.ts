@@ -59,6 +59,9 @@ class AccountingDepartment extends Department {
   }
 
   static getInstance() {
+    if (AccountingDepartment.instance) {
+      return this.instance;
+    }
   }
 
   describe(): void {
