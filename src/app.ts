@@ -34,6 +34,7 @@ class AccountingDepartment extends Department {
     if (this.lastReport) {
       return this.lastReport;
     }
+    throw new Error("レポートが存在しません。");
   }
 
   constructor(id: string, private reports: string[]) {
