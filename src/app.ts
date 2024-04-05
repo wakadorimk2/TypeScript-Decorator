@@ -13,6 +13,9 @@ class Department {
   }
 }
 
+class ITDepartment extends Department {
+}
+
 const accounting = new Department('D1', 'Accounting');
 accounting.addEmployee('Max');
 accounting.addEmployee('Manu');
