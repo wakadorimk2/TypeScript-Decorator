@@ -37,6 +37,13 @@ class AccountingDepartment extends Department {
     throw new Error("レポートが存在しません。");
   }
 
+  set mostRecentReport(value: string) {
+    if (!value) {
+      throw new Error("正しい値を設定してください。")
+    }
+    this.addReport(value);
+  }
+
   constructor(id: string, private reports: string[]) {
     super(id, 'Accounting');
     this.lastReport = reports[0];
