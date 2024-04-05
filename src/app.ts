@@ -35,6 +35,10 @@ class AccountingDepartment extends Department {
   addReport(text: string) {
     this.reports.push(text);
   }
+
+  printReports() {
+    console.log(this.reports);
+  }
 }
 
 const it = new ITDepartment('D1', ['Max']);
