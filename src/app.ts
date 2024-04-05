@@ -1,5 +1,7 @@
 class Department {
   name: string;
 
-  constructor() {}
+  constructor(n: string) {
+    this.name = n;
+  }
 }
