@@ -96,6 +96,9 @@ const it = new ITDepartment('D1', ['Max']);
 it.describe();
 
 const accounting = AccountingDepartment.getInstance();
+const accounting2 = AccountingDepartment.getInstance();
+console.log(accounting, accounting2);
+
 accounting.mostRecentReport = "通期会計レポート";
 accounting.addReport('Something...')
 
