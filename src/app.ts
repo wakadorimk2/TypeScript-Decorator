@@ -27,5 +27,9 @@ class ITDepartment extends Department {
   }
 }
 
+class AccountingDepartment extends Department {
+  
+}
+
 const it = new ITDepartment('D1', ['Max']);
 console.log(it)
