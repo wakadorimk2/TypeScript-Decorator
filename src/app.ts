@@ -1,4 +1,4 @@
-class Department {
+abstract class Department {
   static fiscalYear = '2024';
 
   protected employees: string[] = [];
