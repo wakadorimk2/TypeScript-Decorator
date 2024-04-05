@@ -10,8 +10,8 @@ class Department {
   constructor(protected readonly id: string, public name: string) {
   }
 
-  describe(this: Department) {
-    console.log(`Department (${this.id}): ${this.name}`)
+  abstract describe(this: Department) {
+    // console.log(`Department (${this.id}): ${this.name}`)
   }
 
   addEmployee(employee: string) {
