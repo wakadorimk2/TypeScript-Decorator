@@ -1,4 +1,4 @@
-interface Person {
+type Person = {
   name: string;
   age: number;
 
@@ -14,3 +14,5 @@ user1 = {
         console.log(phrase + ' ' + this.name);
     }
 }
+
+user1.greet('Hello ! I am');
