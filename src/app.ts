@@ -1,4 +1,6 @@
 class Department {
+  static fiscalYear = '2024';
+
   protected employees: string[] = [];
 
   static createEmployee(name: string) {
