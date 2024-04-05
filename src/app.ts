@@ -70,6 +70,9 @@ class AccountingDepartment extends Department {
   }
 }
 
+const employee1 = Department.createEmployee('Max');
+console.log(employee1);
+
 const it = new ITDepartment('D1', ['Max']);
 console.log(it)
 
