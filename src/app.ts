@@ -88,3 +88,4 @@ accounting.addEmployee('Max');
 accounting.addEmployee('Manu');
 console.log(accounting);
 
+accounting.describe();
