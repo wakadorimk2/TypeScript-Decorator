@@ -10,9 +10,7 @@ abstract class Department {
   constructor(protected readonly id: string, public name: string) {
   }
 
-  abstract describe(this: Department) {
-    // console.log(`Department (${this.id}): ${this.name}`)
-  }
+  abstract describe(this: Department): string;
 
   addEmployee(employee: string) {
     this.employees.push(employee);
