@@ -84,6 +84,7 @@ const employee1 = Department.createEmployee('Max');
 // console.log(Department.fiscalYear);
 
 const it = new ITDepartment('D1', ['Max']);
+it.describe();
 
 const accounting = new AccountingDepartment('D2', [])
 accounting.mostRecentReport = "通期会計レポート";
