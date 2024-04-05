@@ -63,6 +63,7 @@ class AccountingDepartment extends Department {
       return this.instance;
     }
     this.instance = new AccountingDepartment('d2', []);
+    return this.instance;
   }
 
   describe(): void {
