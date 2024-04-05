@@ -57,6 +57,10 @@ class AccountingDepartment extends Department {
     this.lastReport = reports[0];
   }
 
+  describe(): void {
+    console.log('会計部門 - ID: ' + this.id);
+  }
+
   addReport(text: string) {
     this.reports.push(text);
     this.lastReport = text;
