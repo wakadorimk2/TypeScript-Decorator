@@ -1,6 +1,10 @@
 class Department {
   protected employees: string[] = [];
 
+  static createEmployee(name: string) {
+    return {name: name};
+  }
+
   constructor(private readonly id: string, public name: string) {
   }
 
