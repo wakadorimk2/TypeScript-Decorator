@@ -6,7 +6,7 @@ interface Greetable {
 
 class Person implements Greetable {
     name: string;
-    age: number;
+    age = 30;
 
     constructor(n: string) {
         this.name = n;
