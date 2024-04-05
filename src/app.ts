@@ -7,7 +7,7 @@ class Department {
     return {name: name};
   }
 
-  constructor(private readonly id: string, public name: string) {
+  constructor(protected readonly id: string, public name: string) {
   }
 
   describe(this: Department) {
