@@ -39,3 +39,6 @@ class AccountingDepartment extends Department {
 
 const it = new ITDepartment('D1', ['Max']);
 console.log(it)
+
+const accounting = new AccountingDepartment('D2', ['Anna'])
+console.log(accounting)
