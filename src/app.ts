@@ -79,3 +79,5 @@ interface Bird {
 interface Horse {
   runningSpeed: number;
 }
+
+type Animal = Bird | Horse;
