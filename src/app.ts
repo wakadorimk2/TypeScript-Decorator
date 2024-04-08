@@ -8,7 +8,7 @@ interface Employee {
   startDate: Date;
 }
 
-type ElevatedEmployee = Admin & Employee;
+interface ElevatedEmployee extends Employee, Admin {}
 
 const e1: ElevatedEmployee = {
   name: 'Max',
