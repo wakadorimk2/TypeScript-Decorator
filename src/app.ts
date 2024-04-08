@@ -75,3 +75,7 @@ useVehicle(v2);
 interface Bird {
   flyingSpeed: number;
 }
+
+interface Horse {
+  runningSpeed: number;
+}
