@@ -52,4 +52,8 @@ class Truck {
   drive() {
     console.log('トラックを運転中...');
   }
+
+  loadCargo(amount: number) {
+    console.log('荷物を載せています...' + amount);
+  }
 }
