@@ -22,7 +22,9 @@ class Person implements Greetable {
     age = 30;
 
     constructor(n: string) {
+        if (n) {
         this.name = n;
+        }
     }
 
     greet(phrase: string): void {
