@@ -47,3 +47,9 @@ class Car {
     console.log('運転中...');
   }
 }
+
+class Truck {
+  drive() {
+    console.log('トラックを運転中...');
+  }
+}
