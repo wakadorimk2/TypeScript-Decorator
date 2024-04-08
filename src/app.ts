@@ -85,7 +85,13 @@ interface Horse {
 type Animal = Bird | Horse;
 
 function moveAnimal(animal: Animal) {
-  if (animal instanceof Bird) {
-    console.log(animal.flyingSpeed);
+  let speed;
+  switch (animal.type) {
+    case 'bird':
+      speed = animal.flyingSpeed;
+      break;
+    case 'horse':
+      speed = animal.runningSpeed;
+      break;
   }
 }
