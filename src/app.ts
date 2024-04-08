@@ -73,10 +73,12 @@ useVehicle(v1);
 useVehicle(v2);
 
 interface Bird {
+  type: 'bird',
   flyingSpeed: number;
 }
 
 interface Horse {
+  type: 'horse',
   runningSpeed: number;
 }
 
