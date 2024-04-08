@@ -81,3 +81,7 @@ interface Horse {
 }
 
 type Animal = Bird | Horse;
+
+function moveAnimal(animal: Animal) {
+  console.log(animal.flyingSpeed);
+}
