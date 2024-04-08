@@ -1,9 +1,9 @@
-type Admin = {
+interface Admin {
   name: string;
   privileges: string[];
 }
 
-type Employee = {
+interface Employee {
   name: string;
   startDate: Date;
 }
