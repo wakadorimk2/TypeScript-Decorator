@@ -21,7 +21,7 @@ class Person implements Greetable {
   name?: string;
   age = 30;
 
-  constructor(n: string) {
+  constructor(n?: string) {
     if (n) {
       this.name = n;
     }
@@ -34,7 +34,7 @@ class Person implements Greetable {
 
 let user1: Greetable;
 
-user1 = new Person("Max");
+user1 = new Person();
 
 user1.greet("Hello ! I am");
 console.log(user1);
