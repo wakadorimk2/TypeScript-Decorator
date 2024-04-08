@@ -27,3 +27,5 @@ function add(a: Combinable, b: Combinable) {
   }
   return a + b;
 }
+
+type UnknownEmployee = Employee | Admin;
