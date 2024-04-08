@@ -94,4 +94,5 @@ function moveAnimal(animal: Animal) {
       speed = animal.runningSpeed;
       break;
   }
+  console.log('移動速度: ' + speed);
 }
