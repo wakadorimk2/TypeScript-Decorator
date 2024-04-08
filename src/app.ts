@@ -57,3 +57,5 @@ class Truck {
     console.log('荷物を載せています...' + amount);
   }
 }
+
+type Vehicle = Car | Truck;
