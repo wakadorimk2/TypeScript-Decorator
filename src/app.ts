@@ -21,7 +21,6 @@ let user1: Greetable;
 
 user1 = {
     name: 'Max',
-    age: 30,
     greet(phrase: string) {
         console.log(phrase + ' ' + this.name);
     }
