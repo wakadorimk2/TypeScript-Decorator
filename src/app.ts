@@ -71,3 +71,7 @@ function useVehicle(vehicle: Vehicle) {
 }
 useVehicle(v1);
 useVehicle(v2);
+
+interface Bird {
+  flyingSpeed: number;
+}
