@@ -15,5 +15,3 @@ const e1: ElevatedEmployee = {
   privileges: ['create-server'],
   startDate: new Date(),
 }
-
-console.log(e1);
