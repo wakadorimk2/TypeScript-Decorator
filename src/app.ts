@@ -103,5 +103,5 @@ moveAnimal({type: 'bird', flyingSpeed: 10});
 const userInputElement = document.getElementById("user-input");
 
 if (userInputElement) {
-  userInputElement.value = "こんにちは！";
+  (userInputElement as HTMLInputElement).value = "こんにちは！";
 }
