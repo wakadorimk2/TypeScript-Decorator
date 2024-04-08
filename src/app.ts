@@ -59,3 +59,6 @@ class Truck {
 }
 
 type Vehicle = Car | Truck;
+
+const v1 = new Car();
+const v2 = new Truck();
