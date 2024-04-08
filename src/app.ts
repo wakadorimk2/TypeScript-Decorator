@@ -32,4 +32,5 @@ type UnknownEmployee = Employee | Admin;
 
 function printEmployeeInformation(emp: UnknownEmployee) {
   console.log(emp.name);
+  console.log('Privileges: ' + emp.privileges)
 }
