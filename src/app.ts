@@ -26,4 +26,6 @@ user1 = {
     }
 }
 
+user1 = new Person('Max');
+
 user1.greet('Hello ! I am');
