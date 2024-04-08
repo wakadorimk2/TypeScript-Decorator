@@ -41,3 +41,9 @@ function printEmployeeInformation(emp: UnknownEmployee) {
 }
 
 printEmployeeInformation({ name: 'Manu', startDate: new Date() });
+
+class Car {
+  drive() {
+    console.log('運転中...');
+  }
+}
