@@ -48,6 +48,9 @@ class DataStorage<T> {
   }
 
   removeItem(item: T) {
+    if (this.data.indexOf(item) === -1) {
+        return;
+    }
     this.data.splice(this.data.indexOf(item), 1);
   }
 
