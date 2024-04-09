@@ -5,6 +5,12 @@ function Logger(logString: string) {
   }
 }
 
+function WithTemplate(template: string, hookId: string) {
+  return function(constructor: Function) {
+    
+  }
+}
+
 @Logger("ログ出力中 - PERSON")
 class Person {
   name = 'Max';
