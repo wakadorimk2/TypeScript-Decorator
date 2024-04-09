@@ -57,3 +57,4 @@ class DataStorage<T> {
 }
 
 const textStorage = new DataStorage<string>();
+textStorage.addItem('10');
