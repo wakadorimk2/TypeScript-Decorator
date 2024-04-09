@@ -40,7 +40,11 @@ class Product {
   private _price: number;
 
   set price(val: number) {
-    this._price = val;
+    if (val > 0) {
+      this._price = val;
+    } else {
+      throw new Error(`不正な価格です - 0以下は設定できません`);
+    }
   }
 
   constructor(t: string, p: number) {
