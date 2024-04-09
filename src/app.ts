@@ -61,3 +61,5 @@ textStorage.addItem('Data1');
 textStorage.addItem('Data2');
 textStorage.removeItem('Data1');
 console.log(textStorage.getItems());
+
+const numberStorage = new DataStorage<number>();
