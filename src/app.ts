@@ -28,6 +28,8 @@ function add(a: Combinable, b: Combinable) {
   return a + b;
 }
 
+const result = add(1, 5);
+
 // type UnknownEmployee = Employee | Admin;
 
 // function printEmployeeInformation(emp: UnknownEmployee) {
