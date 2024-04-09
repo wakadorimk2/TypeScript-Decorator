@@ -86,9 +86,9 @@ function createCourseGoal(
   description: string,
   date: Date
 ): CourseGoal {
-  return {
-    title: title,
-    description: description,
-    completeUntil: date,
-  };
+  let courseGoal = {};
+  courseGoal.title = title;
+  courseGoal.description = description;
+  courseGoal.completeUntil = date;
+  return courseGoal;
 }
