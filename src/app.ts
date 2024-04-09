@@ -93,5 +93,5 @@ function createCourseGoal(
   return courseGoal as CourseGoal;
 }
 
-const names = ['Max', 'Anna'];
+const names : Readonly<string[]> = ['Max', 'Anna'];
 names.push('Manu');
