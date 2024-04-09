@@ -37,14 +37,18 @@ console.log(pers);
 
 class Product {
   title: string;
-  price: number;
+  private _price: number;
+
+  set price(val: number) {
+    this._price = val;
+  }
 
   constructor(t: string, p: number) {
     this.title = t;
-    this.price = p;
+    this._price = p;
   }
 
   getPriceWithTax(tax: number) {
-    return this.price * (1 + tax);
+    return this._price * (1 + tax);
   }
 }
