@@ -6,3 +6,7 @@ const promise = new Promise<number>((resolve, reject) => {
         resolve(10);
     }, 2000);
 });
+
+promise.then(data => {
+    data.split(' ');
+});
