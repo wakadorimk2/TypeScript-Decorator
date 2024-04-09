@@ -1,7 +1,9 @@
-function Logger() {
+function Logger(constructor: Function) {
   console.log("ログ出力中...");
+  console.log(constructor);
 }
 
+@Logger
 class Person {
   name = 'Max';
 
