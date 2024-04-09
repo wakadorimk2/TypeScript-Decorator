@@ -1,1 +1,1 @@
-const names = ['Max', 'Manuel'];
+const names: Array = [];
