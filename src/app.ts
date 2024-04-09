@@ -32,7 +32,8 @@ function add(a: Combinable, b: Combinable) {
   return a + b;
 }
 
-const result = add(1, 5);
+const result = add(1, 'aa bb cc');
+result.split(' ');
 
 // type UnknownEmployee = Employee | Admin;
 
