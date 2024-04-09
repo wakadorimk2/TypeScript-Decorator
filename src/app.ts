@@ -12,5 +12,5 @@
 // });
 
 function merge(objA: object, objB: object) {
-    retrun Object.assign(objB);
+    return Object.assign(objA, objB);
 }
