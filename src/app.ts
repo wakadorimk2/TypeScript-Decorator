@@ -16,3 +16,5 @@ function merge<T extends object, U extends object>(objA: T, objB: U) {
 }
 
 const mergedObj =  merge({ name: 'Max', hobbies: ['Sports'] }, { age: 30 });
+
+function countAndDescribe<T>(element: T) {}
