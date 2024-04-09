@@ -94,3 +94,4 @@ function createCourseGoal(
 }
 
 const names = ['Max', 'Anna'];
+names.push('Manu');
