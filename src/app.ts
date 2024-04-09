@@ -105,3 +105,7 @@ const userInputElement = document.getElementById("user-input");
 if (userInputElement) {
   (userInputElement as HTMLInputElement).value = "こんにちは！";
 }
+
+interface ErrorContainer {
+  [prop: string]: string;
+}
