@@ -35,7 +35,7 @@ console.log(pers);
 
 // ...
 
-function log() {
+function Log() {
   
 }
 
