@@ -92,3 +92,5 @@ function createCourseGoal(
   courseGoal.completeUntil = date;
   return courseGoal as CourseGoal;
 }
+
+const names = ['Max', 'Anna'];
