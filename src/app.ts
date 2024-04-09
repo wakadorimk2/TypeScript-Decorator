@@ -6,12 +6,16 @@ function Logger(logString: string) {
 }
 
 function WithTemplate(template: string, hookId: string) {
-  return function(constructor: Function) {
-    
+  return function(_: Function) {
+    const hookEL = document.getElementById(hookId);
+    if (hookEL) {
+      hookEL.innerHTML = template;
+    }
   }
 }
 
-@Logger("ログ出力中 - PERSON")
+// @Logger("ログ出力中 - PERSON")
+@WithTemplate("<h1>Personオブジェクト</h1>", "app")
 class Person {
   name = 'Max';
 
