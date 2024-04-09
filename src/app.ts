@@ -65,3 +65,4 @@ console.log(textStorage.getItems());
 const numberStorage = new DataStorage<number>();
 
 const objStorage = new DataStorage<object>();
+objStorage.addItem({ name: 'Max' });
