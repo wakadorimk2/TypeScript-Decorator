@@ -17,6 +17,10 @@ function merge<T extends object, U extends object>(objA: T, objB: U) {
 
 const mergedObj =  merge({ name: 'Max', hobbies: ['Sports'] }, { age: 30 });
 
+interface Lengthy {
+    length: number;
+}
+
 function countAndDescribe<T>(element: T) {
     let descriptionText = "値がありません。"
     if (element.length > 0) {
