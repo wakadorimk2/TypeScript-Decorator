@@ -28,3 +28,5 @@ function countAndDescribe<T extends Lengthy>(element: T) {
     }
     return [element, descriptionText];
 }
+
+console.log(countAndDescribe('お疲れさまです！'));
