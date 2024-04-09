@@ -10,3 +10,7 @@
 // promise.then(data => {
 //     data.split(' ');
 // });
+
+function merge(objA: object, objB: object) {
+    retrun Object.assign(objB);
+}
