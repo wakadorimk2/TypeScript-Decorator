@@ -11,7 +11,7 @@
 //     data.split(' ');
 // });
 
-function merge<T>(objA: T, objB: object) {
+function merge<T, U>(objA: T, objB: U) {
     return Object.assign(objA, objB);
 }
 
