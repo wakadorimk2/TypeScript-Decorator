@@ -1,3 +1,7 @@
+function Logger() {
+  console.log("ログ出力中...");
+}
+
 class Person {
   name = 'Max';
 
