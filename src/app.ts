@@ -34,3 +34,5 @@ console.log(countAndDescribe([]));
 function extractAndConvert(obj: object, key: string) {
     return 'value: ' + obj[key];
 };
+
+extractAndConvert({}, "name");
