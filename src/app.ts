@@ -49,20 +49,20 @@ class DataStorage<T extends string | number | boolean> {
 
   removeItem(item: T) {
     if (this.data.indexOf(item) === -1) {
-        return;
+      return;
     }
     this.data.splice(this.data.indexOf(item), 1);
   }
 
   getItems() {
-    return [...this.data]
+    return [...this.data];
   }
 }
 
 const textStorage = new DataStorage<string>();
-textStorage.addItem('Data1');
-textStorage.addItem('Data2');
-textStorage.removeItem('Data1');
+textStorage.addItem("Data1");
+textStorage.addItem("Data2");
+textStorage.removeItem("Data1");
 console.log(textStorage.getItems());
 
 const numberStorage = new DataStorage<number>();
@@ -74,3 +74,9 @@ const numberStorage = new DataStorage<number>();
 // // ...
 // objStorage.removeItem(obj);
 // console.log(objStorage.getItems());
+
+interface CourseGoal {
+  title: string;
+  description: string;
+  completeUntil: Date;
+}
