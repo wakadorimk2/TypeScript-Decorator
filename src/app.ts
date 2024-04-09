@@ -35,11 +35,13 @@ console.log(pers);
 
 // ...
 
-function Log() {
-  
+function Log(target: any, propertyName: string | Symbol) {
+  console.log('Property デコレータ');
+  console.log(target, propertyName);
 }
 
 class Product {
+  @Log
   title: string;
   private _price: number;
 
