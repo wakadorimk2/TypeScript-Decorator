@@ -57,4 +57,7 @@ class DataStorage<T> {
 }
 
 const textStorage = new DataStorage<string>();
-textStorage.addItem('10');
+textStorage.addItem('Data1');
+textStorage.addItem('Data2');
+textStorage.removeItem('Data1');
+console.log(textStorage.getItems());
