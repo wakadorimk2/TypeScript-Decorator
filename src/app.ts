@@ -67,10 +67,10 @@ console.log(textStorage.getItems());
 
 const numberStorage = new DataStorage<number>();
 
-const objStorage = new DataStorage<object>();
-const obj = { name: 'Max' }
-objStorage.addItem(obj);
-objStorage.addItem({ name: 'Manu' });
-// ...
-objStorage.removeItem(obj);
-console.log(objStorage.getItems());
+// const objStorage = new DataStorage<object>();
+// const obj = { name: 'Max' }
+// objStorage.addItem(obj);
+// objStorage.addItem({ name: 'Manu' });
+// // ...
+// objStorage.removeItem(obj);
+// console.log(objStorage.getItems());
