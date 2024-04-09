@@ -11,6 +11,7 @@ function WithTemplate(template: string, hookId: string) {
     const p = new constructor();
     if (hookEL) {
       hookEL.innerHTML = template;
+      hookEL.querySelector('h1')!.textContent = p.name;
     }
   }
 }
