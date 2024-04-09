@@ -35,6 +35,10 @@ console.log(pers);
 
 // ...
 
+function log() {
+  
+}
+
 class Product {
   title: string;
   private _price: number;
