@@ -43,4 +43,8 @@ class Product {
     this.title = t;
     this.price = p;
   }
+
+  getPriceWithTax(tax: number) {
+    return this.price * (1 + tax);
+  }
 }
