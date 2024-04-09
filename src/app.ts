@@ -67,3 +67,6 @@ const numberStorage = new DataStorage<number>();
 const objStorage = new DataStorage<object>();
 objStorage.addItem({ name: 'Max' });
 objStorage.addItem({ name: 'Manu' });
+// ...
+objStorage.removeItem({ name: 'Manu' });
+console.log(objStorage.getItems());
