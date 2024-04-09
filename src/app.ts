@@ -6,8 +6,9 @@ function Logger(logString: string) {
 }
 
 function WithTemplate(template: string, hookId: string) {
-  return function(_: Function) {
+  return function(constructor: any) {
     const hookEL = document.getElementById(hookId);
+    const p = new constructor();
     if (hookEL) {
       hookEL.innerHTML = template;
     }
