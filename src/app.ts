@@ -1,1 +1,1 @@
-const names: Array<string | number> = [];
+const names: Array<string> = [];
