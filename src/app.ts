@@ -112,4 +112,5 @@ interface ErrorContainer {
 
 const errorBag: ErrorContainer = {
   email: "正しいメールアドレスではありません",
+  username: "ユーザ名に記号を含めることはできません",
 }
