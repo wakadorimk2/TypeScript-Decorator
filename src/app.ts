@@ -81,7 +81,11 @@ interface CourseGoal {
   completeUntil: Date;
 }
 
-function createCourseGoal(title: string, description: string, date: Date) {
+function createCourseGoal(
+  title: string,
+  description: string,
+  date: Date
+): CourseGoal {
   return {
     title: title,
     description: description,
