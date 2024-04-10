@@ -73,6 +73,7 @@ class Product {
     this._price = p;
   }
 
+  @Log3
   getPriceWithTax(tax: number) {
     return this._price * (1 + tax);
   }
