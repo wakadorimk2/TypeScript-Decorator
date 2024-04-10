@@ -47,6 +47,13 @@ function Log2(target: any, name: string, descriptor: PropertyDescriptor) {
   console.log(descriptor);
 }
 
+function Log3(target: any, name: string | Symbol, descriptor: PropertyDescriptor) {
+  console.log('Method デコレータ');
+  console.log(target);
+  console.log(name);
+  console.log(descriptor);
+}
+
 class Product {
   @Log
   title: string;
